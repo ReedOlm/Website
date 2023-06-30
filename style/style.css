@@ -1,9 +1,13 @@
 body {
-    background-color: #3a332d;
+    background-color: #C6864E;
+}
+
+r {
+    color: #C6864E;
 }
 
 .navbar-custom {
-    background-color: #e94b3c;
+    background-color: #3A332D;
 }
 
 /* change the brand and text color */
@@ -14,13 +18,14 @@ body {
 
 /* change the link color */
 .navbar-custom .navbar-nav .nav-link {
-    color: red;
+    color: #AF8B64;
+    font-weight: bold;
 }
 
 /* change the color of active or hovered links */
 .navbar-custom .nav-item.active .nav-link,
 .navbar-custom .nav-item:hover .nav-link {
-    color: #ffffff;
+    color: #D2A276;
 }
 
 /* for dropdown only - change the color of droodown */
@@ -36,4 +41,13 @@ body {
 .navbar-custom .dropdown-item:focus {
     color: #333333;
     background-color: rgba(255, 255, 255, .5);
+}
+
+.card {
+    margin: 0 auto;
+    /* Added */
+    float: none;
+    /* Added */
+    margin-bottom: 10px;
+    /* Added */
 }
